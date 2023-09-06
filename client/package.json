@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.1.0",
+    "@chakra-ui/next-js": "^2.1.5",
     "@chakra-ui/react": "^2.8.0",
     "@stripe/stripe-js": "^2.1.0",
     "axios": "^1.5.0",
+    "date-and-time": "^3.0.2",
+    "js-cookie": "^3.0.5",
     "moment": "^2.29.4",
     "next": "13.4.19",
     "pdfmake": "^0.2.7",
