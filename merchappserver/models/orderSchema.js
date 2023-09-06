@@ -1,0 +1,52 @@
+import { Schema } from "mongoose";
+const orderSchema = new Schema({
+    ordid:{
+        type:String
+    },
+    productname:{
+        type:String
+    },
+    cost:{
+        type:Number
+    },
+    quantity:{
+        type:Number
+    },
+    image:{
+        type:String
+    },
+    orderDate:{
+        type:String
+    },
+    billId:{
+        type:String
+    },
+    name:{
+        type:String
+    },
+    email:{
+        type:String
+    },
+    phone:{
+        type:String
+    },
+    house:{
+        type:String
+    },
+    lane:{
+        type:String
+    },
+    city:{
+        type:String
+    },
+    state:{
+        type:String
+    },
+    pincode:{
+        type:String
+    },
+    landmark:{
+        type:String
+    }
+})
+export default orderSchema
